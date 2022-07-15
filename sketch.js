@@ -27,7 +27,8 @@ function draw() {
       
       
       noStroke();
-      fill((255*0.25) + (avg*0.75));
+      //fill((255*0.25) + (avg*0.75));
+      fill(avg);
       
       const len = density.length;
       const charIndex = floor(map(avg, 0 , 255, len, 0));
