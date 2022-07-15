@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0,0,0);
+  width: 100vw;
+  height: 100vh;
+}
+canvas {
+  display: flex;
+  
+}
+body { 
+/*position: relative;*/
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+video {
+  position: absolute;
+  top: -100%;
+  z-index: -1;
+}
