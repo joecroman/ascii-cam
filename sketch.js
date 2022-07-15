@@ -1,4 +1,4 @@
-const density = "Ñ@#W$9876543210?!abc;:+=-,._                  ";
+const density = "Ñ@#W$9876543210?!abc;:+=-,._                    ";
 let source;
 
 
@@ -28,7 +28,7 @@ function draw() {
       
       noStroke();
       //fill((255*0.25) + (avg*0.75));
-      fill(avg);
+      fill((255*0.5) + (avg*0.5));
       
       const len = density.length;
       const charIndex = floor(map(avg, 0 , 255, len, 0));
